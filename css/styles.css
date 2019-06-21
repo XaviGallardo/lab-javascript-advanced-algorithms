@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.input--Text {
+  width: 20rem;
+}
+#elementTaked {
+  display: inline-block;
+  margin: 0 1rem;
+}
+#stacks {
+  display: block;
+  width: 20rem;
+}
+#bt--add,
+#bt--take {
+  display: block;
+  width: 20rem;
+  margin-top: 0.5em;
+  border-radius: 6px;
+  color: white;
+}
+#bt--add {
+  background-color: rgba(0, 125, 202, 0.699);
+}
+#bt--take {
+  background-color: rgba(172, 41, 41, 0.849);
+}
+.stOver,
+.stUnder {
+  display: block;
+  width: 20rem;
+  margin-top: 0.5em;
+  padding: 0.5em 0;
+  text-align: center;
+  color: red;
+  border: 1px solid red;
+  background-color: rgb(253, 216, 216);
+}
+.stack--element {
+  display: block;
+  width: 20rem;
+  margin-top: 0.5em;
+  padding: 0.5em 0;
+  text-align: center;
+  background-color: lightgrey;
+}
+.active {
+  background-color: rgb(82, 136, 197);
+  color: white;
+}
